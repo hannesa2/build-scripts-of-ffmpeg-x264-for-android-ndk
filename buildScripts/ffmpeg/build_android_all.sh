@@ -19,4 +19,4 @@ chmod a+x build_android_*.sh
 ./build_android_mips.sh
 
 # Build mips64   //may fail
-./build_android_mips64.sh
+#./build_android_mips64.sh
