@@ -1,7 +1,16 @@
-# build-scripts-of-ffmpeg-x264-with-android-ndk
+# Build scripts of ffmpeg x264 with Android NDK
 ffmpeg build scripts with android ndk (including x264)
 
-### requirement is a NDK r11
+### Requirement
+
+* NDK r11
+* nasm >= 2.13
+
+You can check your current version with `nasm -v` 
+
+On macOS you will see `Apple 0.98` and to get recent version on macOS `brew install nasm` 
+
+### Setup
 
 Currently it expect NDK location at `~/Development/android-ndk-r11c`
 
